@@ -10,7 +10,7 @@ public class Encrypt {
 		String pad; // Store the one-time pad
 
 		System.out.println("Encrypt or Decrypt?");
-		answer = TextIO.getln();
+		answer = TextIO.getln(); //Get response from user
 
 		if (answer.equals("Encrypt") || answer.equals("encrypt")) {
 			System.out.println("Enter any message to encrypt");
